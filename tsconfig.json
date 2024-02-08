@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "target": "ES2022",
+
+    /* Bundling */
+    "allowImportingTsExtensions": true,
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "declaration": true,
+    "declarationDir": "types",
+    "emitDeclarationOnly": true,
+    "isolatedModules": true,
+    "jsx": "react-jsx",
+    "moduleDetection": "force",
+    "moduleResolution": "Node",
+    "outDir": "dist",
+    "resolveJsonModule": true,
+    "sourceMap": true,
+
+    /* Compiling */
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+
+    /* Linting */
+    "alwaysStrict": true,
+    "checkJs": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noUncheckedIndexedAccess": true,
+    "strict": true,
+    "strictNullChecks": true
+  },
+  "include": ["src"]
+}

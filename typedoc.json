@@ -1,0 +1,19 @@
+{
+  "$schema": "https://typedoc.org/schema.json",
+  "name": "ReactDX",
+  "includeVersion": true,
+  "entryPoints": ["src/index.ts"],
+  "plugin": ["typedoc-plugin-markdown", "typedoc-plugin-mdn-links"],
+  "exclude": [
+    "**/test/**/*",
+    "**/dist/**/*",
+    "**/shims/**/*",
+    "**/node_modules/**/*",
+    "**/coverage/**/*"
+  ],
+  "cleanOutputDir": true,
+  "readme": "none",
+  "out": "./docs",
+  "excludeReferences": true,
+  "logLevel": "Verbose"
+}
